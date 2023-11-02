@@ -352,27 +352,28 @@ export class DefaultAppConfig implements AppConfig {
           tagName: 'link',
           attributes: {
             'rel': 'icon',
-            'href': 'assets/dspace/images/favicons/favicon.ico',
-            'sizes': 'any',
+            'href': 'assets/images/favicon.ico',
+            'sizes': 'ico',
           }
         },
-        {
-          // Insert <link rel="icon" href="assets/dspace/images/favicons/favicon.svg" type="image/svg+xml"/> into the <head> of the page.
-          tagName: 'link',
-          attributes: {
-            'rel': 'icon',
-            'href': 'assets/dspace/images/favicons/favicon.svg',
-            'type': 'image/svg+xml',
-          }
-        },
-        {
-          // Insert <link rel="apple-touch-icon" href="assets/dspace/images/favicons/apple-touch-icon.png"/> into the <head> of the page.
-          tagName: 'link',
-          attributes: {
-            'rel': 'apple-touch-icon',
-            'href': 'assets/dspace/images/favicons/apple-touch-icon.png',
-          }
-        },
+
+        // {
+        //   // Insert <link rel="icon" href="assets/dspace/images/favicons/favicon.svg" type="image/svg+xml"/> into the <head> of the page.
+        //   tagName: 'link',
+        //   attributes: {
+        //     'rel': 'icon',
+        //     'href': 'assets/dspace/images/favicons/favicon.svg',
+        //     'type': 'image/svg+xml',
+        //   }
+        // },
+        // {
+        //   // Insert <link rel="apple-touch-icon" href="assets/dspace/images/favicons/apple-touch-icon.png"/> into the <head> of the page.
+        //   tagName: 'link',
+        //   attributes: {
+        //     'rel': 'apple-touch-icon',
+        //     'href': 'assets/dspace/images/favicons/apple-touch-icon.png',
+        //   }
+        // },
         {
           // Insert <link rel="manifest" href="assets/dspace/images/favicons/manifest.webmanifest"/> into the <head> of the page.
           tagName: 'link',

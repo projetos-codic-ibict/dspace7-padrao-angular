@@ -9,8 +9,8 @@
     <h5 class="d-inline-block mb-0">
       {{'search.filters.filter.' + filter.name + '.head'| translate}}
     </h5>
-    <span class="filter-toggle flex-grow-1 fas p-auto"
-          [ngClass]="(collapsed$ | async) ? 'fa-plus' : 'fa-minus'"
+    <span class="filter-toggle flex-grow-1 uil p-auto"
+          [ngClass]="(collapsed$ | async) ? 'uil-angle-down' : 'uil-angle-up'"
           [title]="((collapsed$ | async) ? 'search.filters.filter.expand' : 'search.filters.filter.collapse') | translate">
     </span>
   </button>

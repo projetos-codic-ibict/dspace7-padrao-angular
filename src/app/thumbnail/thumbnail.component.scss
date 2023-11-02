@@ -25,7 +25,8 @@ img {
       background: var(--ds-thumbnail-placeholder-background);
       border: var(--ds-thumbnail-placeholder-border);
       color: var(--ds-thumbnail-placeholder-color);
-      font-weight: bold;
+      font-weight: normal;
+      font-size: 16px;
     }
     > .centered {
       width: 100%;

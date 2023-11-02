@@ -41,7 +41,7 @@
                   [title]="dsoType + '.edit.metadata.edit.buttons.undo' | translate"
                   ngbTooltip="{{ dsoType + '.edit.metadata.edit.buttons.undo' | translate }}"
                   [disabled]="isVirtual || (!mdValue.change && mdValue.reordered) || (!mdValue.change && !mdValue.editing) || (saving$ | async)" (click)="undo.emit()">
-            <i class="fas fa-undo-alt fa-fw"></i>
+            <i class="uil uil-redo-alt fa-fw"></i>
           </button>
         </div>
       </div>

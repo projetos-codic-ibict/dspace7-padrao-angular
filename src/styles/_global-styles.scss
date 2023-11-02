@@ -267,3 +267,131 @@ ul.dso-edit-menu-dropdown > li .nav-item.nav-link {
 .table td {
   vertical-align: middle;
 }
+
+// particularidades do Ibict
+//-- ### variables --//
+$sizeMD: 8px;
+
+
+.badge-secondary {
+    background-color:var(--yellow);
+    color:var(--cyan);
+}
+.btn {
+    padding: 0 24px;
+    border-radius: 8px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow:none;
+}
+input.form-control {
+    height: 40px;
+    border-radius: 8px;
+}
+.pagination {
+    gap:8px;
+    .page-link {
+        border-radius: 8px!important;
+    }
+}
+
+.background-banner {
+    background-color: $gray-400;
+}
+
+.bottom-footer {
+    small {
+        color: var(--dark);
+    }
+}
+
+button.filter-name {
+    h5 {
+        margin-bottom: 0!important;
+    }
+}
+
+.form-group {
+    label {
+        width: 100%;
+    }
+}
+
+.thumbnail-placeholder {
+    border:none!important;
+}
+
+//filters
+.ng-star-inserted {
+    h3 {
+        font-size: 1rem;
+    }
+}
+.facet-filter {
+    border-radius:$sizeMD!important;
+    border:1px solid $cyan!important;
+    background: none!important;    
+}
+
+.filters.py-2 {
+    padding: 16px 0!important;
+}
+
+.filter-name {
+    padding: 4px 0!important;
+}
+
+.toggle-more-filters {
+    margin:8px 0 0px 0;
+}
+
+.viewButton {
+    color:$cyan;
+    background-color:var(--bs-white);
+    display: flex;
+    justify-content: center;
+}
+
+.expandButton {
+    margin: 4px 0;
+}
+
+//card
+.card {
+    overflow: hidden;
+}
+.card-title {
+    margin-bottom: 4px;
+}
+
+// form
+.setting-option {
+    .form-control {
+        height: 40px;
+        width: 100%;
+        outline: none!important;
+        border: 1px solid #E8E8E8;
+        border-radius: 8px;
+        outline: none;
+        border-radius: 8px;
+        padding: 0 16px 0 16px;
+        letter-spacing: 0.5px;
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzA0MTMyQSIgZD0iTTE3LDkuMTdhMSwxLDAsMCwwLTEuNDEsMEwxMiwxMi43MSw4LjQ2LDkuMTdhMSwxLDAsMCwwLTEuNDEsMCwxLDEsMCwwLDAsMCwxLjQybDQuMjQsNC4yNGExLDEsMCwwLDAsMS40MiwwTDE3LDEwLjU5QTEsMSwwLDAsMCwxNyw5LjE3WiIvPjwvc3ZnPg==);
+        background-repeat: no-repeat;
+        background-position: right 8px center;
+        background-size: 24px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none!important;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+
+.ng-star-inserted {
+    .btn-lg {
+        font-size: 14px;
+    }
+}

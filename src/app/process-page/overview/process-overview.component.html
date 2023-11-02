@@ -5,7 +5,7 @@
     <div class="d-flex justify-content-end">
         <button *ngIf="processBulkDeleteService.hasSelected()" class="btn btn-primary mr-2"
                 (click)="processBulkDeleteService.clearAllProcesses()"><i
-                class="fas fa-undo pr-2"></i>{{'process.overview.delete.clear' | translate }}
+                class="uil uil-redo pr-2"></i>{{'process.overview.delete.clear' | translate }}
         </button>
         <button *ngIf="processBulkDeleteService.hasSelected()" class="btn btn-danger mr-2"
                 (click)="openDeleteModal(deleteModal)"><i

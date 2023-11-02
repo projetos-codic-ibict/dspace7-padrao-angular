@@ -6,9 +6,9 @@
        (click)="switchViewTo(viewModeEnum.ListElement)"
        routerLinkActive="active"
        [class.active]="currentMode === viewModeEnum.ListElement"
-       class="btn btn-secondary"
+       class="btn btn-primary"
        [attr.data-test]="'list-view' | dsBrowserOnly">
-       <span class="fas fa-list"></span><span class="sr-only">{{'search.view-switch.show-list' | translate}}</span>
+       <span class="uil uil-list-ul"></span><span class="sr-only">{{'search.view-switch.show-list' | translate}}</span>
     </button>
     <button *ngIf="isToShow(viewModeEnum.GridElement)"
        routerLink="."
@@ -17,9 +17,9 @@
        (click)="switchViewTo(viewModeEnum.GridElement)"
        routerLinkActive="active"
        [class.active]="currentMode === viewModeEnum.GridElement"
-       class="btn btn-secondary"
+       class="btn btn-primary"
        [attr.data-test]="'grid-view' | dsBrowserOnly">
-       <span class="fas fa-th-large"></span><span class="sr-only">{{'search.view-switch.show-grid' | translate}}</span>
+       <span class="uil uil-th"></span><span class="sr-only">{{'search.view-switch.show-grid' | translate}}</span>
     </button>
     <button *ngIf="isToShow(viewModeEnum.DetailedListElement)"
        routerLink="."
