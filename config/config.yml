@@ -3,3 +3,5 @@ rest:
   host: api7.dspace.org
   port: 443
   nameSpace: /server
+
+defaultLanguage: pt-BR
