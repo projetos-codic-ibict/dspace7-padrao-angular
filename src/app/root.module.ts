@@ -44,8 +44,6 @@ import { ThemedPageErrorComponent } from './page-error/themed-page-error.compone
 import { PageErrorComponent } from './page-error/page-error.component';
 import { ContextHelpToggleComponent } from './header/context-help-toggle/context-help-toggle.component';
 import { SystemWideAlertModule } from './system-wide-alert/system-wide-alert.module';
-import {LrwRepositoryWidgetModule} from "./lrw-repository-widget/lrw-repository-widget.module";
-import {LrwRepositoryWidgetComponent} from "./lrw-repository-widget/lrw-repository-widget.component";
 
 const IMPORTS = [
   CommonModule,
@@ -84,7 +82,7 @@ const DECLARATIONS = [
   PageInternalServerErrorComponent,
   ThemedPageErrorComponent,
   PageErrorComponent,
-  ContextHelpToggleComponent
+  ContextHelpToggleComponent,
 ];
 
 const EXPORTS = [
