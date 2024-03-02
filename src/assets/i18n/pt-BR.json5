@@ -4879,6 +4879,17 @@
   // "search.filters.applied.f.birthDate.min": "Start birth date",
   "search.filters.applied.f.birthDate.min": "Início data de nascimento",
 
+
+  "search.filters.filter.itemRights.head": "Tipo de acesso",
+  "search.filters.filter.itemRights.placeholder": "Tipo de acesso",
+  "search.filters.filter.itemRights.label": "Procurar por tipo de autor",
+
+  "search.filters.filter.itemLanguage.head": "Idioma",
+  "search.filters.filter.itemLanguage.placeholder": "Idioma",
+  "search.filters.filter.itemLanguage.label": "Procurar idioma",
+
+  "search.browse.item-back": "Voltar",
+
   // "search.filters.applied.f.withdrawn": "Withdrawn",
   "search.filters.applied.f.withdrawn": "Retirado",
 
