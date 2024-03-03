@@ -4859,7 +4859,7 @@
   "search.filters.applied.f.has_content_in_original_bundle": "Tem arquivos",
 
   // "search.filters.applied.f.itemtype": "Type",
-  "search.filters.applied.f.itemtype": "Tipo",
+  "search.filters.applied.f.itemtype": "Tipo de documento",
 
   // "search.filters.applied.f.namedresourcetype": "Status",
   "search.filters.applied.f.namedresourcetype": "Estado",
@@ -4996,13 +4996,13 @@
   "search.filters.filter.has_content_in_original_bundle.head": "Tem arquivos",
 
   // "search.filters.filter.itemtype.head": "Type",
-  "search.filters.filter.itemtype.head": "Tipo",
+  "search.filters.filter.itemtype.head": "Tipo de documento",
 
   // "search.filters.filter.itemtype.placeholder": "Type",
-  "search.filters.filter.itemtype.placeholder": "Tipo",
+  "search.filters.filter.itemtype.placeholder": "Tipo de documento",
 
   // "search.filters.filter.itemtype.label": "Search type",
-  "search.filters.filter.itemtype.label": "Procurar tipo",
+  "search.filters.filter.itemtype.label": "Procurar tipo de documento",
 
   // "search.filters.filter.jobTitle.head": "Job Title",
   "search.filters.filter.jobTitle.head": "Cargo",
